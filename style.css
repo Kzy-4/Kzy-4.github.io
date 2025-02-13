@@ -419,8 +419,11 @@ ul {
   }
 }
 
-@media screen and (min-width: 801px) {
-  .nav-menu-icon {
-    display: none; /* ซ่อนไอคอนเมนู เมื่ออยู่ในหน้าจอใหญ่ */
+@media screen and (max-width: 500px) {
+  /******* About Me *****/
+  .aboutme-paragraph p,
+  .contact-info-box h3,
+  .contact-info-box p {
+    font-size: 11px;
   }
 }
